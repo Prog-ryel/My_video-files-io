@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <link rel="icon" type="image/x-icon" href="New Project 1 [8F40576].png">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Ryel-prog</title>
+ <style>
+  body, html {
+   background-color: black;
+   
+  }
+  video {
+   width: 150px;
+   height: 200px;
+   background: black;
+   border-radius: 10px;
+  }
+  .btn::after 
+  {
+   content: "";
+   z-index: -1;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: #333;
+   left: 0;
+   top: 0;
+   border-radius: 10px;
+  }
+  
+  .btn::before 
+  {
+   content: "";
+   background: linear-gradient(
+     45deg, #FF0000, #FF7300, #FFFB00, #48FF00, #00FFD5, #002BFF, #FF00CB, #FF0000
+   );
+   position: absolute;
+   top: -2px;
+   left: -2px;
+   background-size: 600px;
+   z-index: -1;
+   width: calc(100% + 4px);
+   height: calc(100% + 4px);
+   filter: blur(8px);
+   animation: glowing 20s linear infinite;
+   transition: opacity .3s ease-in-out;
+   border-radius: 10px;
+   opacity: 1;
+  }
+  @keyframes glowing {
+   0% {background-position: 0 0;}
+   50% {background-position: 400% 0;}
+   100% {background-position: 0 0;}
+  }
+  .btn {
+   padding: 10px 25px;
+   font-size: 8px;
+   border: none;
+   outline: none;
+   color: #FFF;
+   cursor: pointer;
+   position: relative;
+   z-index: 0;
+   border-radius: 10px;
+   margin-left: 6rem;
+  }
+  
+  video:hover {
+  .Preset:hover
+  .preset:hover
+  .reset:hover 
+   width: 300px;
+   height: 300px;
+  }
+  .Preset {
+   margin-left: 20px;
+  }
+  .preset {
+   margin-left: 21.8px;
+  }
+  .reset {
+   margin-left: 15px;
+  }
+  video {
+   border: 2px solid deepskyblue
+  }
+  h1 {
+   margin-left: 5.5rem;
+   font-size: 15px;
+   display: flex;
+   height: 10vh;
+   color: #fff;
+   font-weight: bolder;
+  /*/ background-image: linear-gradient(-25deg, #F40202, #F40202, #02F4A7, #02DEF4);/*/
+   background-size: 300% 300%;
+   /*/animation: gradient 12s cubic-bezier(0.4, 0, 0.2, 1) infinite;/*/
+   background-image: linear-gradient(
+     45deg, #FF0000, #FF7300, #FFFB00, #48FF00, #00FFD5, #002BFF, #FF00CB, #FF0000
+   );
+   animation: glowing 20s linear infinite;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+  }
+  
+  @keyframes glowing {
+   0% {
+    background-position: 0% 0%;
+   }
+   50% {
+    background-position: 400% 0%;
+   }
+   100% {
+    background-position: 0% 0%;
+   }
+  }
+  .img {
+   width: 100px;
+   height: 100px;
+   margin-left: 8.5rem; 
+   border-radius: 50%;
+   border: 2px solid blue;
+   filter: drop-shadow(1px 1px 15px #009DFF);
+   -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation:spin 6s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+.preset {
+ margin-top: 20rem;
+}
+.gwapa {
+ position: absolute;
+   width: 115px;
+   height: 190px;
+   margin-left: 1px;
+   border-radius: 10px
+   transition: all 0.5s;
+   clip-path: circle(95% at 50% 30%);
+ 
+ }
+.card {
+   position: relative;
+   width: 116px;
+   height: 191px;
+   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+   background: black;
+   margin-left: 30px;
+  }
+ .card:hover {
+   box-shadow: none;
+   border-radius: 10px;
+  }
+ .card:hover .gwapa {
+   clip-path: circle(33% at 49.5% 36%);
+  }
+  .card:hover .gwapa {
+   filter: drop-shadow(1px 1px 15px #02F4EA);
+   transform: translateY(0)
+   transition-delay: 0.8s;
+  }
+  .position {
+   margin-bottom: 30rem;
+   font-size: 2px;
+  }
+  .card:hover p,
+  .card:hover position {
+   opacity: 5;
+   transform: translateY(0);
+   transition-delay: 0s;
+   text-align: center;
+   padding-top: 8rem;
+   color: #00F6B2;
+  }
+  .justifyser,
+  .justifys,
+  .justify {
+   display: flex;
+   margin-left: 20px;
+  }
+  h2 {
+   text-align: center;
+   color: white;
+  }
+  .gwapa {
+   border-radius: 10px;
+   border: 2px solid deepskyblue;
+   filter: drop-shadow(1px 1px 15px #02F4EA);
+  }
+  .cards {
+   position: relative;
+   width: 116px;
+   height: 191px;
+   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+   background: black;
+   margin-left: 30px;
+  }
+  
+ .cards:hover {
+   box-shadow: none;
+   border-radius: 10px;
+  }
+ .cards:hover .gwapa {
+   clip-path: circle(33% at 49.5% 36%);
+   transform: translateY(0)
+   transition-delay: 0.8s;
+  }
+  .cards:hover .gwapa {
+   filter: drop-shadow(1px 1px 15px #02F4EA);
+   transform: translateY(0)
+   transition-delay: 0.8s;
+  }
+
+  .positions {
+   margin-bottom: 30rem;
+   font-size: 2px;
+  }
+  .cards:hover p,
+  .cards:hover .positions {
+   opacity: 5;
+   transform: translateY(0);
+   transition-delay: 0s;
+   text-align: center;
+   padding-top: 8rem;
+   color: #00F6B2;
+  }
+  
+  .cardse {
+   position: relative;
+   width: 116px;
+   height: 191px;
+   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+   background: black;
+   margin-left: 30px;
+  }
+  
+ .cardse:hover {
+   box-shadow: none;
+   border-radius: 10px;
+  }
+ .cardse:hover .gwapa {
+   clip-path: circle(33% at 49.5% 36%);
+  }
+  .cardse:hover .gwapa {
+   filter: drop-shadow(1px 1px 15px #02F4EA);
+   transform: translateY(0)
+   transition-delay: 0.8s;
+  }
+
+  .positionse {
+   margin-bottom: 30rem;
+   font-size: 2px;
+  }
+  .cardse:hover p,
+  .cardse:hover .positionse {
+   opacity: 5;
+   transform: translateY(0);
+   transition-delay: 0s;
+   text-align: center;
+   padding-top: 8rem;
+   color: #00F6B2;
+  }
+  
+   .cardser {
+   position: relative;
+   width: 116px;
+   height: 191px;
+   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+   background: black;
+   margin-left: 30px;
+  
+  }
+ .cardser:hover {
+   box-shadow: none;
+   border-radius: 10px;
+  }
+ .cardser:hover .gwapa {
+   clip-path: circle(33% at 49.5% 36%);
+   transform: translateY(0)
+   transition-delay: 0.8s;
+  }
+  .cardser:hover .gwapa {
+   filter: drop-shadow(1px 1px 15px #02F4EA);
+  }
+
+  .positionser {
+   margin-bottom: 30rem;
+   font-size: 2px;
+  }
+  .cardser:hover p,
+  .cardser:hover .positionser {
+   opacity: 5;
+   transform: translateY(0);
+   transition-delay: 0s;
+   text-align: center;
+   padding-top: 8rem;
+   color: #00F6B2;
+  }
+  .justifyser {
+   margin-top: 40px;
+  }
+  .div-class {
+   border: 2px solid blue;
+   border-radius: 10px;
+  }
+  .div-classic {
+   border: 2px solid pink;
+   border-radius: 10px;
+  }
+  label {
+   color: white;
+  font-size: 10px;
+  }
+  .label {
+   font-size: 9px;
+  }
+ </style>
+ <br>
+ <img class="img" src="jjmonIMG20240525164019.jpg" alt="jjmonIMG20240525164019.jpg">
+ <h1>RYEL JARANTA MAGHANOY</h1>
+ <label>Hover effects in picture</label> <br>
+ <label class="label">(Click the picture!)</label>
+ <hr>
+</head>
+  <body>
+   <div class="div-classic">
+   <br>
+   <div class="justify">
+   <div class="card">
+   <img class="gwapa" src="bb_20240625_154612.jpg" alt="">
+   
+     <p class="position"><b>BACHELOR OF SCIENCE IN ELECTRONICS AND COMMUNICATION ENGINEERING</b><br><br>
+           LENNETH TADEO QUIBUYEN 
+         </p>
+         </div>
+            <div class="card">
+       <img class="gwapa" src="gwapo_20240625_114424.jpg" alt="">
+   
+       <p class="position"><b>BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</b><br><br>
+           RYEL JARANTA MAGHANOY
+         </p>
+         </div>
+       </div>
+       <br>
+       </div>
+       <hr>
+       <div class="div-class">
+       <h2>Friends</h2>
+       <div class="justify">
+   <div class="cards">
+   <img class="gwapa" src="joey_20240625_123726.jpg" alt="">
+   
+     <p class="positions"><b>BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY </b><br><br>
+           JOEY HAVANA 
+         </p>
+         </div>
+            <div class="cards">
+       <img class="gwapa" src="manuel_20240625_123808.jpg" alt="">
+   
+       <p class="positions"><b>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</b><br><br>
+           MANUEL MANGADLAO JR.
+         </p>
+         </div>
+       </div>
+       <br>
+       <br>
+     <div class="justifys">
+   <div class="cardse">
+   <img class="gwapa" src="justine_20240625_130241.jpg" alt="">
+   
+     <p class="positionse"><b>MARINE ENGINEERING</b><br><br>
+           JUSTINE GOGO
+         </p>
+         </div>
+            <div class="cardse">
+       <img class="gwapa" src="sam_20240625_131240.jpg" alt="">
+   
+       <p class="positionse"><b>AEROSPACE ENGINEERING</b><br><br>
+           SAM JONES VALLE
+         </p>
+         </div>
+       </div>
+     <div class="justifyser">
+   <div class="cardser">
+   <img class="gwapa" src="roldan_20240625_152544.jpg" alt="">
+   
+     <p class="positionser"><b>BACHELOR OF SCIENCE IN BIOLOGY</b><br><br>
+           ROLDAN ELLADORA
+         </p>
+         </div>
+            <div class="cardser">
+       <img class="gwapa" src="mico_20240625_152753.jpg" alt="">
+   
+       <p class="positionser"><b>BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</b><br><br>
+           MICO VILLA QUIMSON 
+         </p>
+         </div>
+       </div>
+       <div class="justifyser">
+   <div class="cardser">
+   <img class="gwapa" src="raniel_20240625_185832.jpg" alt="">
+   
+     <p class="positionser"><b>BACHELOR OF SCIENCE IN SECONDARY EDUCATION MAJOR IN ENGLISH</b><br><br>
+           RANIEL CABA
+         </p>
+         </div>
+            <div class="cardser">
+       <img class="gwapa" src="junel_20240625_190327.jpg" alt="">
+   
+       <p class="positionser"><b>BACHELOR OF SCIENCE IN ELECTRICAL ENGINEERING</b><br><br>
+           JUNEL MEJOS 
+         </p>
+         </div>
+         </div>
+         <br>
+       </div>
+       <hr>
+     <div class="preset">
+       <video controls><source src="massdemo.mp4" type="video/mp4" ></video>
+       <video class="Preset" controls><source src="Preset.mp4" type="video/mp4" ></video>
+      <hr>
+      
+          <video width="400" controls><source src="lv_0_20230408190958.mp4" type="video/mp4" ></video>
+          <video class="Preset" controls><source src="FS• 𝙧𝙮𝙚𝙡 𝙋𝙧𝙚𝙨𝙚𝙩 🎟️27 [CC4D978].mp4" type="video/mp4" ></video>
+        <hr>
+          <video width="400" controls><source src="FS • r𝙮𝙚𝙡 𝙋𝙧𝙚𝙨𝙚𝙩 🎟️ [C4BC48A].mp4" type="video/mp4" ></video>
+          <video class="Preset" controls><source src="New Project 3 [A2673E4].mp4" type="video/mp4" ></video>
+         <hr>
+           <video width="400" controls><source src="Preset.mp4" type="video/mp4" ></video>
+           <video class="Preset" controls><source src="ryel 𝙥𝙧𝙚𝙨𝙚𝙩23 [09428B8].mp4" type="video/mp4" ></video>
+         <hr>
+           <video width="400" controls><source src="ryel 𝙥𝙧𝙚𝙨𝙚𝙩🎟22 [C9D1F83].mp4" type="video/mp4" ></video>
+           <video class="Preset" controls><source src="ryel 𝙥𝙧𝙚𝙨𝙚𝙩🎟21 [D49FE2C].mp4" type="video/mp4" ></video>
+         <hr>
+           <video width="400" controls><source src="Kuya__𝘿𝙄𝙀𝙏𝙃𝙀𝙍🎟️ [739FA4E].mp4" type="video/mp4" ></video>
+           <video class="Preset" controls><source src="tj.mp4" type="video/mp4" ></video>
+         <hr>
+           <video width="400" controls><source src="20221228_230328.mp4" type="video/mp4" ></video>
+           <video class="Preset" controls><source src="v_0_20221216101849.mp4" ></video>
+         <hr>
+           <video width="400" controls><source src="luk luk luk 🥶 [353C706].mp4" type="video/mp4" ></video>
+           <video class="Preset" controls><source src="ryel1 𝘱𝘳𝘦𝘴𝘦𝘵🎟 [57D018F].mp4" ></video>
+         <hr>
+           <video width="400" controls><source src="ryel 𝙥𝙧𝙚𝙨𝙚𝙩🎟2🇵🇭 [6B381F1].mp4" type="video/mp4" ></video>
+           <video class="Preset" controls><source src="New Project 158 (Kento_Edits) [A68B6AD].mp4" type="video/mp4" ></video>
+         <hr>
+           <video width="400" controls><source src="ryel20220617_071902.mp4" type="video/mp4" ></video>
+           <video class="Preset" controls><source src="New Project 3 [92984E6].mp4" type="video/mp4" ></video>
+         <hr>
+           <video width="400" controls><source src="dodong.mp4" type="video/mp4" ></video>
+           <video class="Preset" controls><source src="joey-haha.mp4" type="video/mp4" ></video>
+        <hr>
+           <video width="400" controls><source src="ICI-boys.mp4" type="video/mp4" ></video>
+           <video class="Preset" controls><source src="ninin.mp4" type="video/mp4" ></video>
+        <hr>
+         <br><br>
+    <button class="btn">2024 | Alrights Reserved <br><br>
+    ©developed by ryel-prog</button>
+  </body>
+  </html>
